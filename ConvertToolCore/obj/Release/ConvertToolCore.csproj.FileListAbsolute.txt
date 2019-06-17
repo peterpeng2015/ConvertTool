@@ -1,0 +1,7 @@
+F:\personal test projs\cshap\ConvertTool\ConvertToolCore\bin\Release\ConvertToolCore.dll
+F:\personal test projs\cshap\ConvertTool\ConvertToolCore\bin\Release\DBHelper.dll
+F:\personal test projs\cshap\ConvertTool\ConvertToolCore\bin\Release\IOHelper.dll
+F:\personal test projs\cshap\ConvertTool\ConvertToolCore\bin\Release\Oracle.ManagedDataAccess.dll
+F:\personal test projs\cshap\ConvertTool\ConvertToolCore\bin\Release\Newtonsoft.Json.dll
+F:\personal test projs\cshap\ConvertTool\ConvertToolCore\obj\Release\ConvertToolCore.csprojResolveAssemblyReference.cache
+F:\personal test projs\cshap\ConvertTool\ConvertToolCore\obj\Release\ConvertToolCore.dll

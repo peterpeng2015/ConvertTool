@@ -1,0 +1,17 @@
+F:\personal test projs\cshap\ConvertTool\ConvertTool\bin\Debug\Config\Oracle2SqlServer.config
+F:\personal test projs\cshap\ConvertTool\ConvertTool\bin\Debug\Config\Oracle2Oracle.config
+F:\personal test projs\cshap\ConvertTool\ConvertTool\bin\Debug\Config\Oracle2SqlServerTypeRelation.json
+F:\personal test projs\cshap\ConvertTool\ConvertTool\bin\Debug\ConvertTool.exe.config
+F:\personal test projs\cshap\ConvertTool\ConvertTool\bin\Debug\ConvertTool.exe
+F:\personal test projs\cshap\ConvertTool\ConvertTool\bin\Debug\ConvertTool.pdb
+F:\personal test projs\cshap\ConvertTool\ConvertTool\bin\Debug\ConvertToolCore.dll
+F:\personal test projs\cshap\ConvertTool\ConvertTool\bin\Debug\DBHelper.dll
+F:\personal test projs\cshap\ConvertTool\ConvertTool\bin\Debug\IOHelper.dll
+F:\personal test projs\cshap\ConvertTool\ConvertTool\bin\Debug\Oracle.ManagedDataAccess.dll
+F:\personal test projs\cshap\ConvertTool\ConvertTool\bin\Debug\Newtonsoft.Json.dll
+F:\personal test projs\cshap\ConvertTool\ConvertTool\bin\Debug\ConvertToolCore.pdb
+F:\personal test projs\cshap\ConvertTool\ConvertTool\bin\Debug\DBHelper.pdb
+F:\personal test projs\cshap\ConvertTool\ConvertTool\bin\Debug\IOHelper.pdb
+F:\personal test projs\cshap\ConvertTool\ConvertTool\obj\Debug\ConvertTool.csprojResolveAssemblyReference.cache
+F:\personal test projs\cshap\ConvertTool\ConvertTool\obj\Debug\ConvertTool.exe
+F:\personal test projs\cshap\ConvertTool\ConvertTool\obj\Debug\ConvertTool.pdb

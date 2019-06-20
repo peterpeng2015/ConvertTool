@@ -1,7 +1,0 @@
-F:\git projs\ConvertTool\ConvertToolCore\bin\Release\ConvertToolCore.dll
-F:\git projs\ConvertTool\ConvertToolCore\bin\Release\DBHelper.dll
-F:\git projs\ConvertTool\ConvertToolCore\bin\Release\IOHelper.dll
-F:\git projs\ConvertTool\ConvertToolCore\bin\Release\Oracle.ManagedDataAccess.dll
-F:\git projs\ConvertTool\ConvertToolCore\bin\Release\Newtonsoft.Json.dll
-F:\git projs\ConvertTool\ConvertToolCore\obj\Release\ConvertToolCore.csprojResolveAssemblyReference.cache
-F:\git projs\ConvertTool\ConvertToolCore\obj\Release\ConvertToolCore.dll

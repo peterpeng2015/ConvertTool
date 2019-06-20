@@ -1,0 +1,3 @@
+F:\git projs\ConvertTool\IOHelper\bin\Release\IOHelper.dll
+F:\git projs\ConvertTool\IOHelper\bin\Release\Newtonsoft.Json.dll
+F:\git projs\ConvertTool\IOHelper\obj\Release\IOHelper.dll

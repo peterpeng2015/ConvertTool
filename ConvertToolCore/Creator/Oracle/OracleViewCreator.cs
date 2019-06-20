@@ -39,7 +39,7 @@ namespace ConvertToolCore
         {
             if ("date".Equals(dataType.ToLower()) || "datetime".Equals(dataType.ToLower()))
             {
-                return $"case when a.{columnName}>=date'1900-01-01' then a.{columnName} end {columnName}";
+                return $"case when a.{columnName}>=date'1900-01-01' then a.{columnName} else date'1900-01-01' end {columnName}";
             }
             else
             {

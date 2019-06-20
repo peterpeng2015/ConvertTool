@@ -1,0 +1,6 @@
+F:\git projs\ConvertTool\IOHelper\bin\Debug\IOHelper.dll
+F:\git projs\ConvertTool\IOHelper\bin\Debug\IOHelper.pdb
+F:\git projs\ConvertTool\IOHelper\bin\Debug\Newtonsoft.Json.dll
+F:\git projs\ConvertTool\IOHelper\obj\Debug\IOHelper.csprojResolveAssemblyReference.cache
+F:\git projs\ConvertTool\IOHelper\obj\Debug\IOHelper.dll
+F:\git projs\ConvertTool\IOHelper\obj\Debug\IOHelper.pdb

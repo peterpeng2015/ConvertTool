@@ -1,0 +1,11 @@
+F:\git projs\ConvertTool\ConvertToolCore\bin\Debug\ConvertToolCore.dll
+F:\git projs\ConvertTool\ConvertToolCore\bin\Debug\ConvertToolCore.pdb
+F:\git projs\ConvertTool\ConvertToolCore\bin\Debug\DBHelper.dll
+F:\git projs\ConvertTool\ConvertToolCore\bin\Debug\IOHelper.dll
+F:\git projs\ConvertTool\ConvertToolCore\bin\Debug\Oracle.ManagedDataAccess.dll
+F:\git projs\ConvertTool\ConvertToolCore\bin\Debug\Newtonsoft.Json.dll
+F:\git projs\ConvertTool\ConvertToolCore\bin\Debug\DBHelper.pdb
+F:\git projs\ConvertTool\ConvertToolCore\bin\Debug\IOHelper.pdb
+F:\git projs\ConvertTool\ConvertToolCore\obj\Debug\ConvertToolCore.csprojResolveAssemblyReference.cache
+F:\git projs\ConvertTool\ConvertToolCore\obj\Debug\ConvertToolCore.dll
+F:\git projs\ConvertTool\ConvertToolCore\obj\Debug\ConvertToolCore.pdb

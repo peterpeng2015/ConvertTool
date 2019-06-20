@@ -1,0 +1,15 @@
+F:\git projs\ConvertTool\ConvertTool-Winform\bin\Release\ConvertTool-Winform.exe.config
+F:\git projs\ConvertTool\ConvertTool-Winform\bin\Release\ConvertTool-Winform.exe.manifest
+F:\git projs\ConvertTool\ConvertTool-Winform\bin\Release\ConvertTool-Winform.application
+F:\git projs\ConvertTool\ConvertTool-Winform\bin\Release\ConvertTool-Winform.exe
+F:\git projs\ConvertTool\ConvertTool-Winform\bin\Release\ConvertTool-Winform.pdb
+F:\git projs\ConvertTool\ConvertTool-Winform\obj\Release\ConvertTool_Winform.frmMain.resources
+F:\git projs\ConvertTool\ConvertTool-Winform\obj\Release\ConvertTool_Winform.Properties.Resources.resources
+F:\git projs\ConvertTool\ConvertTool-Winform\obj\Release\ConvertTool-Winform.csproj.GenerateResource.Cache
+F:\git projs\ConvertTool\ConvertTool-Winform\obj\Release\ConvertTool-Winform.TrustInfo.xml
+F:\git projs\ConvertTool\ConvertTool-Winform\obj\Release\ConvertTool-Winform.exe.manifest
+F:\git projs\ConvertTool\ConvertTool-Winform\obj\Release\ConvertTool-Winform.application
+F:\git projs\ConvertTool\ConvertTool-Winform\obj\Release\ConvertTool-Winform.exe
+F:\git projs\ConvertTool\ConvertTool-Winform\obj\Release\ConvertTool-Winform.pdb
+F:\git projs\ConvertTool\ConvertTool-Winform\obj\Release\ConvertTool_Winform.frmBaseConfig.resources
+F:\git projs\ConvertTool\ConvertTool-Winform\obj\Release\ConvertTool-Winform.csprojResolveAssemblyReference.cache

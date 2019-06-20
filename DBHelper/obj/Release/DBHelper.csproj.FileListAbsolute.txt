@@ -1,0 +1,6 @@
+F:\git projs\ConvertTool\DBHelper\bin\Release\DBHelper.dll
+F:\git projs\ConvertTool\DBHelper\bin\Release\IOHelper.dll
+F:\git projs\ConvertTool\DBHelper\bin\Release\Oracle.ManagedDataAccess.dll
+F:\git projs\ConvertTool\DBHelper\bin\Release\Newtonsoft.Json.dll
+F:\git projs\ConvertTool\DBHelper\obj\Release\DBHelper.csprojResolveAssemblyReference.cache
+F:\git projs\ConvertTool\DBHelper\obj\Release\DBHelper.dll

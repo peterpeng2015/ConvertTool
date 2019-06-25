@@ -1,0 +1,14 @@
+[
+  {
+    "SourceType": "varchar2",
+    "TargetType": "varchar"
+  },
+  {
+    "SourceType": "RAW",
+    "TargetType": "varchar"
+  },
+  {
+    "SourceType": "NUMBER",
+    "TargetType": "numeric"
+  }
+]

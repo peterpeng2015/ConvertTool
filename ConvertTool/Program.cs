@@ -3,6 +3,7 @@ using DBHelper;
 using IOHelper;
 using System;
 using System.Diagnostics;
+using System.Text.RegularExpressions;
 
 namespace ConvertTool
 {

@@ -1,0 +1,20 @@
+F:\personal test projs\cshap\OracleTools\CommomUserControls\bin\Release\CommomUserControls.dll
+F:\personal test projs\cshap\OracleTools\CommomUserControls\bin\Release\CommomUserControls.pdb
+F:\personal test projs\cshap\OracleTools\CommomUserControls\obj\Release\CommomUserControls.DBConnect.resources
+F:\personal test projs\cshap\OracleTools\CommomUserControls\obj\Release\CommomUserControls.OracleConnect.resources
+F:\personal test projs\cshap\OracleTools\CommomUserControls\obj\Release\CommomUserControls.SelectCombobox.resources
+F:\personal test projs\cshap\OracleTools\CommomUserControls\obj\Release\CommomUserControls.csproj.GenerateResource.Cache
+F:\personal test projs\cshap\OracleTools\CommomUserControls\obj\Release\CommomUserControls.dll
+F:\personal test projs\cshap\OracleTools\CommomUserControls\obj\Release\CommomUserControls.pdb
+F:\git projs\ConvertTool\CommomUserControls\obj\Release\CommomUserControls.csprojResolveAssemblyReference.cache
+F:\git projs\ConvertTool\CommomUserControls\obj\Release\CommomUserControls.DBConnect.resources
+F:\git projs\ConvertTool\CommomUserControls\obj\Release\CommomUserControls.OracleConnect.resources
+F:\git projs\ConvertTool\CommomUserControls\obj\Release\CommomUserControls.csproj.GenerateResource.Cache
+F:\git projs\ConvertTool\CommomUserControls\obj\Release\CommomUserControls.dll
+F:\git projs\ConvertTool\CommomUserControls\obj\Release\CommomUserControls.pdb
+F:\git projs\ConvertTool\CommomUserControls\bin\Release\CommomUserControls.dll
+F:\git projs\ConvertTool\CommomUserControls\bin\Release\CommomUserControls.pdb
+F:\git projs\ConvertTool\CommomUserControls\bin\Release\DBHelper.dll
+F:\git projs\ConvertTool\CommomUserControls\bin\Release\Oracle.ManagedDataAccess.dll
+F:\git projs\ConvertTool\CommomUserControls\bin\Release\IOHelper.dll
+F:\git projs\ConvertTool\CommomUserControls\bin\Release\Newtonsoft.Json.dll

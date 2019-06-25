@@ -54,11 +54,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmBaseConfig.cs">
+    <Compile Include="frmDBConfig.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmBaseConfig.Designer.cs">
-      <DependentUpon>frmBaseConfig.cs</DependentUpon>
+    <Compile Include="frmDBConfig.Designer.cs">
+      <DependentUpon>frmDBConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGenerateConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenerateConfig.Designer.cs">
+      <DependentUpon>frmGenerateConfig.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
@@ -68,8 +74,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmBaseConfig.resx">
-      <DependentUpon>frmBaseConfig.cs</DependentUpon>
+    <EmbeddedResource Include="frmDBConfig.resx">
+      <DependentUpon>frmDBConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGenerateConfig.resx">
+      <DependentUpon>frmGenerateConfig.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
@@ -83,7 +92,19 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="Properties\app.manifest" />
+    <None Include="Config\Oracle2Oracle.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Config\Oracle2SqlServer.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Config\Oracle2SqlServerTypeRelation.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -95,7 +116,27 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CommomUserControls\CommomUserControls.csproj">
+      <Project>{03559F69-4F22-439C-897D-D8274CCFE6F7}</Project>
+      <Name>CommomUserControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ConvertToolCore\ConvertToolCore.csproj">
+      <Project>{645818a5-974c-445a-b48c-807a1fa819cc}</Project>
+      <Name>ConvertToolCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBHelper\DBHelper.csproj">
+      <Project>{e66eec94-532c-47e7-a324-d016b2ef2bf5}</Project>
+      <Name>DBHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IOHelper\IOHelper.csproj">
+      <Project>{5c73a59a-3891-4e33-b53d-29b5a73d92f1}</Project>
+      <Name>IOHelper</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -23,6 +23,8 @@ namespace ConvertToolCore
         public string createFileExtend;//创建文件后缀名
         public string sourceConnectionString;//源数据库连接字符串
         public bool isCover = true;//是否覆盖
+        public bool isInOneFile = true;//是否保存为一个文件中
+        public string fileName;//isInOneFile=true时要保存到文件的文件名
 
         /// <summary>
         /// 1.根据配置文件路径，找出配置文件
@@ -90,8 +92,14 @@ namespace ConvertToolCore
                 string tableName = tableDt.Rows[i]["TableName"].ToString();
                 string content = FillTemplate(tableName);
                 System.Console.WriteLine($"{tableName}开始创建。");
-                CreateFile(string.Concat(tableName, ".", createFileExtend), content);
-                System.Console.WriteLine($"{tableName}创建完成！");
+
+                if (!isInOneFile)
+                {
+                    fileName = tableName;
+                }
+
+                CreateFile($"{fileName}.{createFileExtend}", content);
+                System.Console.WriteLine($"{fileName}创建完成！");
             }
 
             Console.WriteLine("===========================");

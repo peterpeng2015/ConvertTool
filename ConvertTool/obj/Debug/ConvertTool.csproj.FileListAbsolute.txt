@@ -1,0 +1,17 @@
+F:\git projs\ConvertTool\ConvertTool\bin\Debug\ConvertTool.exe.config
+F:\git projs\ConvertTool\ConvertTool\bin\Debug\Config\Oracle2SqlServer.config
+F:\git projs\ConvertTool\ConvertTool\bin\Debug\Config\Oracle2Oracle.config
+F:\git projs\ConvertTool\ConvertTool\bin\Debug\Config\Oracle2SqlServerTypeRelation.json
+F:\git projs\ConvertTool\ConvertTool\bin\Debug\ConvertTool.exe
+F:\git projs\ConvertTool\ConvertTool\bin\Debug\ConvertTool.pdb
+F:\git projs\ConvertTool\ConvertTool\bin\Debug\ConvertToolCore.dll
+F:\git projs\ConvertTool\ConvertTool\bin\Debug\DBHelper.dll
+F:\git projs\ConvertTool\ConvertTool\bin\Debug\IOHelper.dll
+F:\git projs\ConvertTool\ConvertTool\bin\Debug\Oracle.ManagedDataAccess.dll
+F:\git projs\ConvertTool\ConvertTool\bin\Debug\Newtonsoft.Json.dll
+F:\git projs\ConvertTool\ConvertTool\bin\Debug\ConvertToolCore.pdb
+F:\git projs\ConvertTool\ConvertTool\bin\Debug\DBHelper.pdb
+F:\git projs\ConvertTool\ConvertTool\bin\Debug\IOHelper.pdb
+F:\git projs\ConvertTool\ConvertTool\obj\Debug\ConvertTool.csprojResolveAssemblyReference.cache
+F:\git projs\ConvertTool\ConvertTool\obj\Debug\ConvertTool.exe
+F:\git projs\ConvertTool\ConvertTool\obj\Debug\ConvertTool.pdb

@@ -41,24 +41,84 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConvertTool-Winform.exe" size="14848">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CommomUserControls.dll" size="14848">
+      <assemblyIdentity name="CommomUserControls" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Xiib/nraBTYwzma+qV3tYiKCncRLYOH/EHurgz7JOCs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConvertTool-Winform.exe" size="22016">
       <assemblyIdentity name="ConvertTool-Winform" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UShmsgKmgZIdtYYKGnEJ+XD+lLyAy5+wbkCCahoAk2I=</dsig:DigestValue>
+        <dsig:DigestValue>75IjimW2xbyBlyE1m4XPfmR+kMo72XFY+PjU9h0l7AU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="ConvertTool-Winform.exe.config" size="187">
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DBHelper.dll" size="8704">
+      <assemblyIdentity name="DBHelper" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7Gbw6R5l7Z1187i+oCW00yCnm3LYSqfwroYsBDb0WxI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IOHelper.dll" size="10240">
+      <assemblyIdentity name="IOHelper" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xTv1qoDnx6f25bKm7VWd9E7fWIIOpTf6aOYtgHw/ZhE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="675752">
+      <assemblyIdentity name="Newtonsoft.Json" version="12.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NZjMytW1Nf6m+TZiEHpBg7/WFnvx0PgCYENgk+3C468=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Oracle.ManagedDataAccess.dll" size="6530560">
+      <assemblyIdentity name="Oracle.ManagedDataAccess" version="4.121.1.0" publicKeyToken="89B483F429C47342" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4MpEoe/ebX4OxY2ohpb9Auf5upxoX7Z/9TQBzSvbvCQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ConvertTool-Winform.exe.config" size="1864">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+      <dsig:DigestValue>jzcQeWLGda+dzs+/ouu3DqyMMh8y5MZ+Jdv7a7awXz8=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

@@ -1,9 +1,0 @@
-F:\git projs\ConvertTool\DBHelper\bin\Debug\DBHelper.dll
-F:\git projs\ConvertTool\DBHelper\bin\Debug\DBHelper.pdb
-F:\git projs\ConvertTool\DBHelper\bin\Debug\IOHelper.dll
-F:\git projs\ConvertTool\DBHelper\bin\Debug\Oracle.ManagedDataAccess.dll
-F:\git projs\ConvertTool\DBHelper\bin\Debug\Newtonsoft.Json.dll
-F:\git projs\ConvertTool\DBHelper\bin\Debug\IOHelper.pdb
-F:\git projs\ConvertTool\DBHelper\obj\Debug\DBHelper.csprojResolveAssemblyReference.cache
-F:\git projs\ConvertTool\DBHelper\obj\Debug\DBHelper.dll
-F:\git projs\ConvertTool\DBHelper\obj\Debug\DBHelper.pdb

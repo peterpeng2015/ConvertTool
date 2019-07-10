@@ -15,7 +15,7 @@ namespace ConvertTool
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            Console.WriteLine("0=Oracle视图,1=SqlServer无主键表结构,2=SqlServer主键,3=SqlServer索引,4=Oracle物化视图日志,5=Oracle物化视图,exit=退出");
+            Console.WriteLine("0=视图,1=SqlServer无主键表结构,2=SqlServer主键,3=SqlServer索引,4=Oracle物化视图日志,5=Oracle物化视图,exit=退出");
             Console.WriteLine("请对应输入要选择的功能的命令：");
 
             string result = Console.ReadLine().Trim();
@@ -61,8 +61,10 @@ namespace ConvertTool
                     creator.createPath = ConfigHelper.GetAppConfig("CreateFilePath");
                     creator.createFileExtend = ConfigHelper.GetAppConfig("CreateFileExtent");
                     creator.sourceConnectionString = ConfigHelper.GetAppConfig("SourceConnectionString");
-                    creator.isCover = !(ConfigHelper.GetAppConfig("IsCover") == "0");
-
+                    creator.isFilter = (ConfigHelper.GetAppConfig("IsFilter") == "1");
+                    creator.isCover = (ConfigHelper.GetAppConfig("IsCover") == "1");
+                    creator.isInOneFile = (ConfigHelper.GetAppConfig("IsInOneFile") == "1");
+                    creator.fileName = ConfigHelper.GetAppConfig("FileName");
                     creator.Run();
                 }
                 catch (Exception ex)

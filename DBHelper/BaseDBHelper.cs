@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DBHelper
 {
-    public abstract class BaseDBHelper : IDBHelper
+    public abstract class BaseDBHelper
     {
         public abstract DataTable Execute(string sql);
 

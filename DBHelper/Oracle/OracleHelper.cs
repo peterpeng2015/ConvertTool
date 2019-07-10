@@ -41,6 +41,45 @@ namespace DBHelper
             }
         }
 
+        public int ExecuteNoQuery(string sql)
+        {
+            using (OracleConnection conn = new OracleConnection(_connString))
+            {
+                using (OracleCommand cmd = new OracleCommand(sql, conn))
+                {
+                    try
+                    {
+                        conn.Open();
+                        return cmd.ExecuteNonQuery();
+                    }
+                    catch (Exception ex)
+                    {
+                        throw ex;
+                    }
+
+                }
+            }
+        }
+
+        public object ExecuteScalar(string sql)
+        {
+            using (OracleConnection conn = new OracleConnection(_connString))
+            {
+                using (OracleCommand cmd = new OracleCommand(sql, conn))
+                {
+                    try
+                    {
+                        conn.Open();
+                        return cmd.ExecuteScalar();
+                    }
+                    catch (Exception ex)
+                    {
+                        throw ex;
+                    }
+                }
+            }
+        }
+
         public DataSet ExecuteReturnDS(string sql)
         {
             using (OracleConnection conn = new OracleConnection(_connString))

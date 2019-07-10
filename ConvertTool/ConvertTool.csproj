@@ -49,6 +49,10 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Config\SqlServer2SqlServer.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Config\Oracle2SqlServer.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -60,7 +64,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="TableNameList.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ConvertToolCore\ConvertToolCore.csproj">
       <Project>{645818a5-974c-445a-b48c-807a1fa819cc}</Project>

@@ -1,8 +1,10 @@
 ﻿using DBHelper;
 using IOHelper;
 using System;
+using System.Collections;
 using System.Data;
 using System.Diagnostics;
+using System.IO;
 /// <summary>
 /// 命名规则 私有的属性用"_"开头
 ///               共有的不变
@@ -23,6 +25,7 @@ namespace ConvertToolCore
         public string createFileExtend;//创建文件后缀名
         public string sourceConnectionString;//源数据库连接字符串
         public bool isCover = true;//是否覆盖
+        public bool isFilter = false;//是否过滤
         public bool isInOneFile = true;//是否保存为一个文件中
         public string fileName;//isInOneFile=true时要保存到文件的文件名
 
@@ -87,9 +90,42 @@ namespace ConvertToolCore
 
             DataTable tableDt = _sourceDt.DefaultView.ToTable(true, "TableName");
 
+            string[] array = { };
+            //根据表名进行过滤
+            if (isFilter)
+            {
+                string tableNameListFilePath = System.Windows.Forms.Application.StartupPath + "\\TableNameList.txt";
+                if (!File.Exists(tableNameListFilePath))
+                {
+                    Console.WriteLine("根目录下不存在TableNameList.txt文件！");
+
+                    return;
+                }
+
+                string file = ReadHelper.Read(tableNameListFilePath);
+
+                if (string.IsNullOrEmpty(file))
+                {
+                    Console.WriteLine("TableNameList.txt文件中不存在任何内容，或不是以','作为分割符！");
+
+                    return;
+                }
+
+                file = file.Trim();
+
+                array = file.Split(',');
+            }
+
             for (int i = 0; i < tableDt.Rows.Count; i++)
             {
                 string tableName = tableDt.Rows[i]["TableName"].ToString();
+
+                //存在过滤文件中的表名，继续处理，否则跳到下次循环
+                if (isFilter && !((IList)array).Contains(tableName))
+                {
+                    continue;
+                }
+
                 string content = FillTemplate(tableName);
                 System.Console.WriteLine($"{tableName}开始创建。");
 
